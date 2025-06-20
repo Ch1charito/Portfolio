@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    img{
+        height: 50%;
+        width: 50%;
+    }
+    .atf-content{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .atf-heading{
+            color: #02F4BF;
+        }
+    }
+}

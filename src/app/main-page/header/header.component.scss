@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    height: 80px;
+    >nav{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        a{
+            color: #E15544;
+            text-decoration: none;
+        }
+    }
+    
+    .switch-btn{
+        width: 64px;
+        display: flex;
+        justify-content: space-between;
+        button{
+            color: #E15544;
+            cursor: pointer;
+        }
+        p{
+            color: #E15544;
+        }
+    }
+}
