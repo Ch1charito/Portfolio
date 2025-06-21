@@ -30,15 +30,26 @@ section{
             justify-content: space-between;
             align-items: center;
             margin-right: 64px;
-            margin-left: 64px;
+            margin-left: -58px;
             img{
-                height: 75px;
-                width: 40px;
+                height: 70px;
+                width: 30px;
                 margin-top: 300px;
             }
             .btn-rotate{
                 transform: rotate(-90deg);
-                
+                color: #E15544;
+                text-decoration: none;
+                border: 1.5px solid #02F4BF;
+                height: 50px;
+                width: 170px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: color 0.6s ease;
+                &:hover{
+                    color: #02F4BF;
+                }
             }
         }
     }

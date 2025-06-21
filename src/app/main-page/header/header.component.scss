@@ -2,8 +2,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 120px;
+    margin-left: 120px;
     height: 80px;
     >nav{
         display: flex;
@@ -12,6 +12,9 @@ header{
         a{
             color: #E15544;
             text-decoration: none;
+            &:hover{
+                color: #02F4BF;
+            }
         }
     }
     
