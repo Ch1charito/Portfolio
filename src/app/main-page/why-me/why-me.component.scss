@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    img{
+        height: 600px;
+        width: 40%;
+    }
+    .why-me-content{
+        height: 550px;
+        width: 60%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-direction: column;
+        color: #02F4BF;
+        text-align: end;
+        h3{
+            font-size: 54px;
+            color: #E15544;
+        }
+        a{
+            text-decoration: none;
+            height: 52px;
+            width: 169px;
+            background: #02F4BF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                color: #E15544;
+            }
+        }
+    }
+}
