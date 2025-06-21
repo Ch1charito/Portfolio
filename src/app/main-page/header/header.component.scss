@@ -1,14 +1,28 @@
 header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 140px;
+    margin-left: 140px;
     height: 80px;
-    >nav{
+    .nav-and-logo{
         display: flex;
-        justify-content: space-between;
-        width: 500px;
+        align-items: center;
+        .logo{
+            font-size: 48px;
+            &:hover{
+                color: #E15544;
+            }
+        }
+        >nav{
+            display: flex;
+            justify-content: space-evenly;
+            width: 800px;
+            font-size: 22px;
+        }
         a{
             color: #E15544;
             text-decoration: none;
@@ -25,6 +39,10 @@ header{
         button{
             color: #E15544;
             cursor: pointer;
+            border: none;
+            &:hover{
+                color: #02F4BF;
+            }
         }
         p{
             color: #E15544;
