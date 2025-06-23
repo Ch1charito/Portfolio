@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Skill } from '../../shared/interfaces/skill';
+import { SkillItemComponent } from './skill-item/skill-item.component';
 
 @Component({
   selector: 'app-my-skills',
-  imports: [],
+  imports: [SkillItemComponent],
   templateUrl: './my-skills.component.html',
   styleUrl: './my-skills.component.scss'
 })

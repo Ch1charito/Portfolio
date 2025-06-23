@@ -1,0 +1,18 @@
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100px;
+    width: 88px;
+    text-align: center;
+    p{
+    color: #02F4BF;
+    font-size: 18px;
+    }
+    img{
+    height: 60px;
+    width: 60px;
+        }
+}
