@@ -1,0 +1,12 @@
+<section [class.reverse]="index % 2 === 1">
+    <img [src]="projects.image" alt="">
+    <div class="info-project">
+        <h4>{{projects.name}}</h4>
+        <p>{{projects.languages}}</p>
+        <p>{{projects.description}}</p>
+        <div class="btn-area">
+            <a class="github-btn" href="{{projects.gitlink}}">GitHub</a>
+            <a class="live-test-btn" href="{{projects.testlink}}">Live Test</a>
+        </div>
+    </div>
+</section>
