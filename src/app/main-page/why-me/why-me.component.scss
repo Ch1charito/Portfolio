@@ -5,20 +5,25 @@ section{
     margin-left: 80px;
     margin-right: 80px;
     img{
-        height: 600px;
-        width: 40%;
+        height: 550px;
+        width: 35%;
     }
     .why-me-content{
         height: 550px;
-        width: 60%;
+        width: 65%;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
         flex-direction: column;
         color: #02F4BF;
         text-align: end;
+        padding-left: 24px;
         h3{
             font-size: 54px;
+            color: #E15544;
+        }
+        h4{
+            font-size: 48px;
             color: #E15544;
         }
         a{
@@ -31,6 +36,50 @@ section{
             justify-content: center;
             &:hover{
                 color: #E15544;
+            }
+        }
+        
+        
+        .i-am-container{
+            width: 568px;
+            .container-row{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .text-position{
+                    text-align: left;
+                }
+                #i-am{
+                    margin-right: 10%;
+                }
+                #arrow-one{
+                    margin-right: 35%;
+                    margin-left: 20%;
+                }
+                #suitcase{
+                    height: 48.98px;
+                    width: 30px;
+                }
+                #remote{
+                    margin-left: 30%;
+                    height: 46.99px;
+                    width: 53.58px;
+                }
+                #arrow-three{
+                    margin-left: 10%;
+                }
+            }
+            p{
+                font-size: 18px;
+            }
+            .why-me-icon{
+                height: 41px;
+                width: 33.31px;
+                margin-right: 16px;
+            }
+            .arrow{
+                height: 75px;
+                width: 75px;
             }
         }
     }

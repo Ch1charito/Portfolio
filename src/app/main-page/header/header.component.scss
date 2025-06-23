@@ -7,7 +7,13 @@ header{
     align-items: center;
     padding-right: 140px;
     padding-left: 140px;
-    height: 80px;
+    height: 92px;
+    background: linear-gradient(
+        to bottom,
+        rgba(18, 11, 53, 1) 0%,
+        rgba(18, 11, 53, 1) 50%,
+        rgba(18, 11, 53, 0.6) 100%
+    );
     .nav-and-logo{
         display: flex;
         align-items: center;
@@ -36,7 +42,9 @@ header{
         width: 64px;
         display: flex;
         justify-content: space-between;
+        
         button{
+            background-color: #120b35;
             color: #E15544;
             cursor: pointer;
             border: none;
