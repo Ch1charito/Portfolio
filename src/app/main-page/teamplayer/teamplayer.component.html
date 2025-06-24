@@ -1,0 +1,14 @@
+<section>
+    <div class="teamplayer content">
+        <h4>Need a teamplayer? Here what my colleagues said about me</h4>
+        <div class="arrow-and-feedback">
+            <img src="/assets/images/why_me/arrow_one.png" alt="">
+            <div class="feedback-content">
+                @for (item of feedbacks; track $index) {
+                    <app-feedback-item [feedbacks]="item"></app-feedback-item>
+                }
+            </div>
+        </div>
+
+    </div>
+</section>

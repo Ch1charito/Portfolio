@@ -1,0 +1,29 @@
+@import url("../../../styles.scss");
+
+section{
+    background-color: #120b35;
+    
+}
+.teamplayer{
+    margin-left: 80px;
+    margin-right: 80px;
+    h4{
+        color: #E15544;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    
+    .arrow-and-feedback{
+        display: flex;
+        img{
+            transform: rotate(-30deg);
+            height: 120px;
+        }
+        .feedback-content{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+    }
+}
