@@ -1,6 +1,8 @@
 <section>
-    <h3>My Projects</h3>
-    @for (item of projects; track $index) {
-        <app-project-item [projects]="item" [index]="$index"></app-project-item>
-    }
+    <div class="my-projects content">
+        <h3>My Projects</h3>
+        @for (item of projects; track $index) {
+            <app-project-item [projects]="item" [index]="$index"></app-project-item>
+        }
+    </div>
 </section>

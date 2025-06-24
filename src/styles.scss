@@ -5,11 +5,20 @@
     box-sizing: border-box;
     position: relative;
     scroll-behavior: smooth;
-    _background-color: #120b35;
     font-family: 'Roboto Mono';
 }
 .fontHandjet{
     font-family: 'Handjet';
+}
+//content-begrenzung
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .content{
+    width: 100%;
+    max-width: 1920px;
+  }
 }
 
 /* handjet-regular - latin */
