@@ -34,6 +34,7 @@ section{
             .links{
                 display: flex;
                 flex-direction: column;
+                justify-content: space-evenly;
                 a{
                     text-decoration: none;
                     color: #02F4BF;
@@ -47,6 +48,76 @@ section{
                     }
                 }
             }
+        }
+    }
+    .input-info{
+        display: flex;
+        justify-content: space-between;
+        
+        .name-email{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 29%;
+            height: 144px;
+        }
+        .text{
+            width: 68%;
+            textarea{
+                width: 100%;
+            }
+        }
+    }
+}
+.d-none{
+    display: none;
+}
+
+.form-input{
+    background: none;
+    height: 56px;
+    border: solid 1px #02F4BF;
+    font-size: 18px;
+    color: #02F4BF;
+    padding-left: 10px;
+}
+.form-input::placeholder {
+    color: #02F4BF;
+}
+.form-text{
+    background: none;
+    height: 144px;
+    border: solid 1px #02F4BF;
+    font-size: 18px;
+    color: #02F4BF;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.form-text::placeholder{
+    color: #02F4BF;
+}
+.checkbox-label{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    a{
+        text-decoration: none;
+        color: #E15544;
+    }
+}
+.send-btn{
+    display: flex;
+    justify-content: end;
+    .send{
+        background: none;
+        color: #E15544;
+        border: solid 1px #E15544;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        &:hover{
+            color: #02F4BF;
+            border: solid 1px #02F4BF;
         }
     }
 }

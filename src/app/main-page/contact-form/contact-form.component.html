@@ -14,6 +14,31 @@
             </div>
             <a href=""><img src="/assets/images/why_me/arrow_up_default.png" alt=""></a>
         </div>
-        <div>contact Form</div>
+        <div>
+            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+                <div class="input-info">
+                    <div class="name-email">
+                        <label class="d-none" for="name"></label>
+                        <input [(ngModel)]="contactData.name" class="form-input" type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <label class="d-none" for="email"></label>
+                        <input [(ngModel)]="contactData.email" class="form-input" type="email" id="email" name="email" placeholder="Your Email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+                    </div>
+                    <div class="text">
+                        <label class="d-none" for="message"></label>
+                        <textarea [(ngModel)]="contactData.message" class="form-text" id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+                <div class="checkbox-label">
+                    <label class="checkbox-label">
+                    <input type="checkbox" class="checkbox-input" name="privacy" [(ngModel)]="contactData.privacy" required>
+                    I've read the <a href="/privacy-policy">privacy policy</a> and agree to the processing of my data as outlined.
+                    </label>
+                </div>
+                <div class="send-btn">
+                    <input class="send" type="submit" value="Send">
+                </div>
+            </form>
+        </div>
     </div>
 </section>
