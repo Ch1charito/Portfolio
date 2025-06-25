@@ -1,19 +1,28 @@
 @import url("../../../styles.scss");
 
 section{
-    background-color: #120b35;
-}
-header{
+    margin-bottom: -8dvh;
     position: sticky;
     top: 0;
     z-index: 1;
+    background: linear-gradient(
+        to bottom,
+        rgba(18, 11, 53, 1) 0%,
+        rgba(18, 11, 53, 1) 50%,
+        rgba(18, 11, 53, 0.6) 100%
+    );
+}
+header{
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 140px;
     padding-left: 140px;
     height: 92px;
-    background: linear-gradient(
+    _background: linear-gradient(
         to bottom,
         rgba(18, 11, 53, 1) 0%,
         rgba(18, 11, 53, 1) 50%,
