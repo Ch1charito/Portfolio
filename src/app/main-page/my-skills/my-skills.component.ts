@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Skill } from '../../shared/interfaces/skill';
 import { SkillItemComponent } from './skill-item/skill-item.component';
+import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-my-skills',
-  imports: [SkillItemComponent],
+  imports: [SkillItemComponent, TranslatePipe],
   templateUrl: './my-skills.component.html',
   styleUrl: './my-skills.component.scss'
 })
@@ -41,14 +42,6 @@ export class MySkillsComponent {
     {
       name: "GIT",
       image: "/assets/images/my_skills_section/git.png",
-    },
-    {
-      name: "Scrum",
-      image: "/assets/images/my_skills_section/scrum.png",
-    },
-    {
-      name: "Material design",
-      image: "/assets/images/my_skills_section/material_design.png",
     },
     {
       name: "Challenge me",

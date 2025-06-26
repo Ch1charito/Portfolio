@@ -1,6 +1,6 @@
 @import url("../../../styles.scss");
 
-section{
+header{
     margin-bottom: -8dvh;
     position: sticky;
     top: 0;
@@ -12,7 +12,7 @@ section{
         rgba(18, 11, 53, 0.6) 100%
     );
 }
-header{
+.header{
     /* position: sticky;
     top: 0;
     z-index: 1; */

@@ -1,0 +1,28 @@
+{
+  "header": {                          
+    "nav1": "Warum ich",
+    "nav2": "Fähogkeiten",
+    "nav3": "Projekte",
+    "nav4": "Kontakt"
+  },
+  "atf": {
+    "btn": "KONTAKT"
+  },
+  "why-me": {
+    "h3": "Warum ich",
+    "text": "Schreibe einige Informationen über dich selbst, die mit IT zu tun haben. Warum bist du leidenschaftlich am Programmieren interessiert? Hebe deine Motivation für berufliches Wachstum und kontinuierliches Lernen hervor. Betone deine starken Fähigkeiten zur Problemlösung und deine Leidenschaft fürs Programmieren.",
+    "h4": "Ich bin",
+    "located": "ansässig",
+    "in": "in München",
+    "open": "offen für",
+    "relocate": "einen Umzug",
+    "remote": "Remote-Arbeit",
+    "talk": "Lassen Sie uns ins Gespräch kommen"
+  },
+  "skills": {
+    "h3": "Meine Fähigkeiten"
+  },
+  "projects": {
+    "h3": "Meine Projekte"
+  }
+}

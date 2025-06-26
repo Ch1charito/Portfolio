@@ -1,0 +1,28 @@
+{
+  "header": {                          
+    "nav1": "Why me",
+    "nav2": "Skills",
+    "nav3": "Projects",
+    "nav4": "Contact"
+  },
+  "atf": {
+    "btn": "CONTACT ME"
+  },
+  "why-me": {
+    "h3": "Why me",
+    "text": "Write some information about yourself that is IT related. Why are you passionate about coding? Highlight your motivation for professional growth and continuous learning. Emphasise your strong problem-solving skills and passion for coding.",
+    "h4": "I am",
+    "located": "located",
+    "in": "in Munich",
+    "open": "open for",
+    "relocate": "relocate",
+    "remote": "work remote",
+    "talk": "Let's talk"
+  },
+  "skills": {
+    "h3": "My Skills"
+  },
+  "projects": {
+    "h3": "Meine Projekte"
+  }
+}

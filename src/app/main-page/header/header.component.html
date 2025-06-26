@@ -1,18 +1,18 @@
-<section>
-    <header class="content">
+<header>
+    <div class="header content">
         <div class="nav-and-logo">
             <a class="fontHandjet logo" href="">&lt;RBB&gt;</a>
             <nav>
-                <a href="">Why me</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                <a href="">{{'header.nav1' | translate }}</a>
+                <a href="">{{'header.nav2' | translate }}</a>
+                <a href="">{{'header.nav3' | translate }}</a>
+                <a href="">{{'header.nav4' | translate }}</a>
             </nav>
         </div>
         <div class="switch-btn">
-            <button>DE</button>
+            <button (click)="changeLanguage('de')">DE</button>
             <p>|</p>
-            <button>EN</button>
+            <button (click)="changeLanguage('en')">EN</button>
         </div>
-    </header>
-</section>
+    </div>
+</header>
