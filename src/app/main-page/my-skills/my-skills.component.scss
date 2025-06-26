@@ -1,7 +1,13 @@
 @import url("../../../styles.scss");
 
 section{
-    background-color: #120b35;
+    _background-color: #120b35;
+    background: linear-gradient(
+      173deg,
+      #120b35 38%,
+      #1f0a7e 70%,
+      #120b35 14%
+  );
     padding-bottom: 92px;
 }
 .my-skills{

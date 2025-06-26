@@ -3,7 +3,7 @@
     <div class="info-project">
         <h4>{{projects.name}}</h4>
         <p>{{projects.languages}}</p>
-        <p>{{projects.description}}</p>
+        <p>{{ projects.description | translate }}</p>
         <div class="btn-area">
             <a class="github-btn" href="{{projects.gitlink}}">GitHub</a>
             <a class="live-test-btn" href="{{projects.testlink}}">Live Test</a>

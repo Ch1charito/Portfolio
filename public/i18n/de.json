@@ -23,6 +23,39 @@
     "h3": "Meine Fähigkeiten"
   },
   "projects": {
-    "h3": "Meine Projekte"
+    "h3": "Meine Projekte",
+    "join": {
+      "description": "Task-Manager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben per Drag-and-Drop, weise Benutzer und Kategorien zu."
+    },
+    "polloLoco": {
+      "description": "Jump-, Lauf- und Wurfspiel basierend auf objektorientiertem Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen."
+    }
+  },
+  "teamplayer": {
+    "h4": "Brauchst du einen Teamplayer? Hier ist, was meine Kolleg:innen über mich sagen",
+    "feedback1": {
+      "personalFeedback": "Marcus musste Inhalte in Zusammenarbeit mit Teammitgliedern entwickeln, formatieren und liefern. Er ist eine zuverlässige und freundliche Person."
+    },
+    "feedback2": {
+      "personalFeedback": "Er ist ein vertrauenswürdiger Teamplayer und kann mit dem Stress von Deadlines umgehen. Strukturierte Arbeit und klarer Code."
+    },
+    "feedback3": {
+      "personalFeedback": "Er ist eine zuverlässige und freundliche Person. Arbeitet strukturiert und schreibt klaren Code. Ich empfehle ihn als Kollegen."
+    }
+  },
+  "contact":{
+    "h3": "Kontaktieren Sie mich",
+    "text": "Ermutigen Sie die Menschen, Kontakt mit Ihnen aufzunehmen, und beschreiben Sie, an welcher Rolle Sie interessiert sind. Drücken Sie Ihr Interesse aus, zu einem neuen Projekt beizutragen.",
+    "name": "Ihr Name",
+    "email": "Ihre Email",
+    "message": "Ihre Nachricht",
+    "i-have": "Ich habe die ",
+    "agree": " gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "policy": "Datenschutzerklärung",
+    "send": "Senden"
+  },
+  "footer": {
+    "legal": "Impressum",
+    "policy": "Datenschutzerklärung"
   }
 }
