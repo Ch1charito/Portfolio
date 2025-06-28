@@ -24,6 +24,7 @@
   },
   "projects": {
     "h3": "Meine Projekte",
+    
     "join": {
       "description": "Task-Manager inspiriert vom Kanban-System. Erstelle und organisiere Aufgaben per Drag-and-Drop, weise Benutzer und Kategorien zu."
     },
@@ -33,6 +34,8 @@
   },
   "teamplayer": {
     "h4": "Brauchst du einen Teamplayer? Hier ist, was meine Kolleg:innen über mich sagen",
+    "h3-resp": "Brauchst du einen Teamplayer?",
+    "h4-resp": "Hier ist, was meine Kolleg:innen über mich sagen",
     "feedback1": {
       "personalFeedback": "Marcus musste Inhalte in Zusammenarbeit mit Teammitgliedern entwickeln, formatieren und liefern. Er ist eine zuverlässige und freundliche Person."
     },

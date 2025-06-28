@@ -8,23 +8,82 @@ section{
     margin-left: 108px;
     margin-right: 108px;
     margin-bottom: 92px;
+    @media (max-width: 1485px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media (max-width: 640px){
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    @media (max-width: 374px){
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     h4{
         color: #E15544;
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 24px;
+        @media (max-width: 1485px){
+            display: none;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        @media (max-width: 400px){
+            font-size: 12px;
+        }
+    }
+    h3{
+        color: #E15544;
+        font-size: 24px;
+    }
+    .h3-h4-resp{
+        display: none;
+        @media (max-width: 1485px){
+            display: flex;
+        }
     }
     
     .arrow-and-feedback{
         display: flex;
+        @media (max-width: 1485px){
+                justify-content: center;
+            }
         img{
             transform: rotate(-30deg);
             height: 120px;
+            @media (max-width: 1485px){
+                display: none;
+            }
         }
         .feedback-content{
             display: flex;
             justify-content: space-between;
             width: 80%;
+            @media (max-width: 1485px){
+                width: 100%;
+            }
+            @media (max-width: 1270px){
+                overflow-x: auto;
+                width: 80%;
+                scrollbar-width: none; /* Firefox */
+                -ms-overflow-style: none; /* Internet Explorer & Edge */
+                cursor: grab;
+            }
+            @media (max-width: 740px){
+                width: 60%;
+            }
+            @media (max-width: 580px){
+                width: 30%;
+            }
+        }
+        .feedback-content::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, Opera */
+        }
+        .feedback-content:active {
+            cursor: grabbing;
         }
     }
 }

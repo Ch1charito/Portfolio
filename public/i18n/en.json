@@ -33,6 +33,8 @@
   },
   "teamplayer": {
     "h4": "Need a teamplayer? Here what my colleagues said about me",
+    "h3-resp": "Need a teamplayer?",
+    "h4-resp": "Here what my colleagues said about me",
     "feedback1": {
       "personalFeedback": "Marcus had to develop, format and deliver content in collaboration with the team members.He is a reliable and friendly person."
     },
