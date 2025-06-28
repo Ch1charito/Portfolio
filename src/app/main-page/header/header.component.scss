@@ -22,12 +22,16 @@ header{
     padding-right: 140px;
     padding-left: 140px;
     height: 92px;
-    _background: linear-gradient(
-        to bottom,
-        rgba(18, 11, 53, 1) 0%,
-        rgba(18, 11, 53, 1) 50%,
-        rgba(18, 11, 53, 0.6) 100%
-    );
+    @media (max-width: 880px){
+        padding-right: 50px;
+        padding-left: 50px;
+        height: 77px;
+    }
+    @media (max-width: 380px){
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
     .nav-and-logo{
         display: flex;
         align-items: center;
@@ -36,12 +40,21 @@ header{
             &:hover{
                 color: #E15544;
             }
+            @media (max-width: 880px){
+                font-size: 44px;
+            }
         }
         >nav{
             display: flex;
             justify-content: space-evenly;
             width: 800px;
             font-size: 22px;
+            @media (max-width: 1255px){
+                width: 500px;
+            }
+            @media (max-width: 970px){
+                display: none;
+            }
         }
         a{
             color: #E15544;

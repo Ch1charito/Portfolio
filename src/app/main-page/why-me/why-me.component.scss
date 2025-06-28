@@ -7,13 +7,25 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    padding-bottom: 92px;
-    img{
+    margin-left: 108px;
+    margin-right: 108px;
+    margin-bottom: 92px;
+    @media (max-width: 570px){
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    @media (max-width: 374px){
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #img-big{
         height: 550px;
         width: 35%;
         object-fit: cover;
+        @media (max-width: 980px){
+                display: none;
+        }
+        
     }
     .why-me-content{
         height: 550px;
@@ -25,13 +37,28 @@ section{
         color: #02F4BF;
         text-align: end;
         padding-left: 24px;
+        @media (max-width: 980px){
+                width: 100%;
+                align-items: center;
+                padding-left: 0;
+                text-align: center;
+        }
+        @media (max-width: 570px){
+                height: 700px;
+                }
         h3{
             font-size: 54px;
             color: #E15544;
+            @media (max-width: 570px){
+                font-size: 32px;
+            }
         }
         h4{
             font-size: 48px;
             color: #E15544;
+            @media (max-width: 570px){
+                    font-size: 18px;
+                }
         }
         a{
             text-decoration: none;
@@ -45,20 +72,42 @@ section{
             &:hover{
                 color: #E15544;
             }
+            @media (max-width: 980px){
+                margin-left: 450px;
+            }
+            @media (max-width: 570px){
+                margin-left: 0;
+                }
         }
         
         
         .i-am-container{
             width: 568px;
+            @media (max-width: 1140px){
+                width: 470px;
+            }
+            @media (max-width: 980px){
+                width: 100%;;
+            }
             .container-row{
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
+                @media (max-width: 570px){
+                    justify-content: center;
+                    margin-bottom: 16px;
+                }
                 .text-position{
                     text-align: left;
+                    @media (max-width: 570px){
+                    display: flex;
+                }
                 }
                 #i-am{
                     margin-right: 10%;
+                    @media (max-width: 570px){
+                    display: none;
+                }
                 }
                 #arrow-one{
                     margin-right: 35%;
@@ -67,28 +116,69 @@ section{
                 #suitcase{
                     height: 48.98px;
                     width: 30px;
+                    @media (max-width: 570px){
+                        height: 38.98px;
+                        width: 20px;
+                    }
                 }
                 #remote{
                     margin-left: 30%;
                     height: 46.99px;
                     width: 53.58px;
+                    @media (max-width: 570px){
+                    margin-left: 0;
+                    height: 36.99px;
+                    width: 43.58px;
+                }
                 }
                 #arrow-three{
                     margin-left: 10%;
+                    @media (max-width: 570px){
+                    display: none;
+                }
                 }
             }
             p{
                 font-size: 18px;
+                @media (max-width: 570px){
+                    font-size: 16px;
+                    margin-right: 8px;
+                }
             }
             .why-me-icon{
                 height: 41px;
                 width: 33.31px;
                 margin-right: 16px;
+                @media (max-width: 570px){
+                    height: 31px;
+                    width: 23.31px;
+                }
             }
             .arrow{
                 height: 75px;
                 width: 75px;
+                @media (max-width: 570px){
+                    display: none;
+                }
             }
         }
+    }
+}
+.arrow-responsive{
+    display: none;
+    @media (max-width: 570px){
+        display: flex;
+    }
+}
+#arrow-resp-two{
+    transform: scaleX(-1);
+    margin-left: 70%;
+}
+#i-am-resp{
+    display: none;
+    @media (max-width: 570px){
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
     }
 }

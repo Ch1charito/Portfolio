@@ -2,23 +2,19 @@
 
 section{
     _background-color: #120b35;
-    background: linear-gradient(
-      173deg,
-      #120b35 38%,
-      #1f0a7e 70%,
-      #120b35 14%
-  );
-    padding-bottom: 92px;
+    background: linear-gradient(to top, #120b35 0%, #1f0a7e 50%, #120b35 100%);
+    
 }
 .my-skills{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 108px;
+    margin-right: 108px;
     height: 412px;
     width: 100%;
+    margin-bottom: 92px;
     h3{
         font-size: 54px;
         color: #E15544;
-        margin-bottom: 24px;
+        margin-bottom: 36px;
     }
     div{
         height: 325px;
