@@ -8,20 +8,41 @@ section{
 .my-skills{
     margin-left: 108px;
     margin-right: 108px;
-    height: 412px;
     width: 100%;
     margin-bottom: 92px;
+    @media (max-width: 685px){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    @media (max-width: 880px){
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    @media (max-width: 374px){
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     h3{
         font-size: 54px;
         color: #E15544;
         margin-bottom: 36px;
+        @media (max-width: 506px){
+            font-size: 32px;
+        }
     }
     div{
-        height: 325px;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(187px, 1fr));
         gap: 80px;
         align-items: center;
+        @media (max-width: 685px){
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 72px;
+        }
     }
     
 }

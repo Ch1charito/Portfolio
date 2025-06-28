@@ -11,9 +11,20 @@ section{
     margin-left: 108px;
     margin-right: 108px;
     margin-bottom: 92px;
+    @media (max-width: 640px){
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    @media (max-width: 374px){
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     h3{
         font-size: 54px;
         color: #E15544;
         margin-bottom: 36px;
+        @media (max-width: 640px){
+            font-size: 32px;
+        }
     }
 }

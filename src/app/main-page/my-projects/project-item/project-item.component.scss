@@ -6,9 +6,31 @@ section{
     &.reverse {
         flex-direction: row-reverse;
     }
+    @media (max-width: 1270px){
+        width: 100%;
+            flex-direction: column-reverse;
+            align-items: center;
+            &.reverse {
+                flex-direction: column-reverse; 
+    }
+    }
     img{
         width: 588px;
         height: 371px;
+        @media (max-width: 640px){
+            width: 420px;
+            height: 225px;
+        }
+        @media (max-width: 466px){
+            width: 350px;
+            height: 225px;
+        }
+        @media (max-width: 390px){
+            width: 280px;
+            height: 184px;
+        }
+        
+        
     }
     .info-project{
         display: flex;
@@ -20,8 +42,24 @@ section{
         margin-left: 24px;
         margin-right: 24px;
         font-size: 18px;
+        @media (max-width: 1270px){
+            align-items: center;
+            margin-bottom: 32px;
+        }
+        @media (max-width: 640px){
+            height: 260px;
+        }
+        @media (max-width: 540px){
+            width: 85%;
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center;
+        }
         h4{
             font-size: 48px;
+            @media (max-width: 640px){
+            font-size: 24px;
+            }
         }
         
         .btn-area{
@@ -30,6 +68,9 @@ section{
             align-items: center;
             width: 300px;
             height: 52px;
+            @media (max-width: 640px){
+                display: none;
+            }
             .github-btn{
                 height: 52px;
                 width: 125px;
@@ -56,6 +97,44 @@ section{
                 &:hover{
                     color: #E15544;
                 }
+            }
+        }
+    }
+}
+.btn-resp{
+    display: none;
+    @media (max-width: 640px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+        height: 52px;
+        margin-top: 16px;
+        .github-btn{
+            height: 52px;
+            width: 100px;
+            text-decoration: none;
+            color: #E15544;
+            border: solid 1px #02F4BF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.6s ease;
+            &:hover{
+                color: #02F4BF;
+            }
+        }
+        .live-test-btn{
+            height: 52px;
+            width: 127px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #02F4BF;
+            transition: color 0.6s ease;
+            &:hover{
+                color: #E15544;
             }
         }
     }
