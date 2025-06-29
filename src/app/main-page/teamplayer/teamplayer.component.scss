@@ -50,7 +50,10 @@ section{
         display: flex;
         @media (max-width: 1485px){
                 justify-content: center;
-            }
+        }
+        @media (max-width: 705px){
+            width: 300px;
+        }
         img{
             transform: rotate(-30deg);
             height: 120px;
@@ -61,13 +64,10 @@ section{
         .feedback-content{
             display: flex;
             justify-content: space-between;
-            width: 80%;
-            @media (max-width: 1485px){
-                width: 100%;
-            }
+            width: 100%;
+            max-width: 100%;
             @media (max-width: 1270px){
                 overflow-x: auto;
-                width: 80%;
                 scrollbar-width: none; /* Firefox */
                 -ms-overflow-style: none; /* Internet Explorer & Edge */
                 cursor: grab;
@@ -76,7 +76,7 @@ section{
                 width: 60%;
             }
             @media (max-width: 580px){
-                width: 30%;
+                width: 70%;
             }
         }
         .feedback-content::-webkit-scrollbar {

@@ -10,6 +10,11 @@ section{
     margin-right: 108px;
     width: 100%;
     margin-bottom: 92px;
+    p{
+        color: #02F4BF;
+        font-size: 16px;
+        text-align: center;
+    }
     @media (max-width: 685px){
             display: flex;
             justify-content: center;
@@ -45,4 +50,17 @@ section{
         }
     }
     
+}
+.arrow-resp{
+    display: none;
+    @media (max-width: 498px){
+        display: flex;
+        transform: scaleX(-1) scaleY(-1) rotate(-30deg);
+    }
+}
+.text-resp{
+    display: none;
+    @media (max-width: 498px){
+        display: flex;
+    }
 }

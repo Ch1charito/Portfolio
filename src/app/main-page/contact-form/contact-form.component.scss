@@ -7,35 +7,70 @@ section{
     margin-left: 108px;
     margin-right: 108px;
     margin-bottom: 92px;
+    @media (max-width: 880px){
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    @media (max-width: 374px){
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     h3{
         font-size: 54px;
         color: #E15544;
+        @media (max-width: 817px){
+                font-size: 32px;
+                text-align: center;
+            }
     }
     color: #02F4BF;
     font-size: 18px;
     .h3-arrow{
         display: flex;
         align-items: center;
+        @media (max-width: 817px){
+            justify-content: center;
+        }
         img{
             width: 140px;
             height: 140px;
             transform: scaleY(-1) rotate(50deg);
+            @media (max-width: 817px){
+                display: none;
+            }
         }
     }
     .mail-phone-arrow{
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px;
+        @media (max-width: 817px){
+            text-align: center;
+            
+        }
+        img{
+            @media (max-width: 817px){
+                display: none;
+            }
+        }
         .mail-phone{
             display: flex;
             p{
                 width: 32%;
                 margin-right: 8px;
+                @media (max-width: 817px){
+                font-size: 16px;
+                width: 100%;
+                margin-right: 0;
+                }
             }
             .links{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
+                @media (max-width: 817px){
+                    display: none;
+                }
                 a{
                     text-decoration: none;
                     color: #02F4BF;
@@ -54,6 +89,9 @@ section{
     .input-info{
         display: flex;
         justify-content: space-between;
+        @media (max-width: 817px){
+            flex-direction: column;
+        }
         
         .name-email{
             display: flex;
@@ -61,9 +99,16 @@ section{
             justify-content: space-between;
             width: 29%;
             height: 144px;
+            @media (max-width: 817px){
+                width: 100%;
+            }
         }
         .text{
             width: 68%;
+            @media (max-width: 817px){
+                width: 100%;
+                margin-top: 32px;
+            }
             textarea{
                 width: 100%;
             }
@@ -101,6 +146,10 @@ section{
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 14px;
+    @media (max-width: 817px){
+        font-size: 12px;
+        text-align: center;
+    }
     a{
         text-decoration: none;
         color: #E15544;
@@ -109,6 +158,9 @@ section{
 .send-btn{
     display: flex;
     justify-content: end;
+    @media (max-width: 817px){
+        justify-content: center;
+    }
     .send{
         background: none;
         color: #E15544;
@@ -120,5 +172,47 @@ section{
             color: #02F4BF;
             border: solid 1px #02F4BF;
         }
+    }
+}
+.arrow-resp{
+    display: none;
+    margin-top: 8px;
+    @media (max-width: 817px){
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.links-resp{
+    display: none;
+    @media (max-width: 817px){
+        display: flex;
+        flex-direction: column;
+        a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #02F4BF;
+            font-size: 14px;
+            margin-top: 16px;
+            img{
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+}
+
+.icons-resp{
+    display: none;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    @media (max-width: 817px){
+        display: flex;
+    }
+    img{
+        height: 30px;
+        width: 30px;
     }
 }

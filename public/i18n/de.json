@@ -20,7 +20,9 @@
     "talk": "Lassen Sie uns ins Gespräch kommen"
   },
   "skills": {
-    "h3": "Meine Fähigkeiten"
+    "h3": "Meine Fähigkeiten",
+    "text": "Ich freue mich immer, neue Technologien zu lernen."
+
   },
   "projects": {
     "h3": "Meine Projekte",

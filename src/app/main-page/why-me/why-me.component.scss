@@ -168,11 +168,12 @@ section{
     display: none;
     @media (max-width: 570px){
         display: flex;
+        margin-left: 9%;
     }
 }
 #arrow-resp-two{
     transform: scaleX(-1);
-    margin-left: 70%;
+    margin-left: 60%;
 }
 #i-am-resp{
     display: none;

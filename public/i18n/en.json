@@ -20,7 +20,8 @@
     "talk": "Let's talk"
   },
   "skills": {
-    "h3": "My Skills"
+    "h3": "My Skills",
+    "text": "I am always happy to learn new technologies,just tell me what you need."
   },
   "projects": {
     "h3": "My Projects",
