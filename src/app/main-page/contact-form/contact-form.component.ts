@@ -33,6 +33,8 @@ export class ContactFormComponent {
     },
   };
 
+  sendSuccess = false;
+
   onSubmit(ngForm: NgForm) {
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
@@ -40,6 +42,10 @@ export class ContactFormComponent {
           next: (response) => {
 
             ngForm.resetForm();
+            this.sendSuccess = true;
+            setTimeout(() =>{
+              this.sendSuccess = false;
+            }, 3000);
           },
           error: (error) => {
             console.error(error);
@@ -49,6 +55,10 @@ export class ContactFormComponent {
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
 
       ngForm.resetForm();
+      this.sendSuccess = true;
+            setTimeout(() =>{
+              this.sendSuccess = false;
+            }, 3000);
     }
   }
 

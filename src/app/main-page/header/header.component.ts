@@ -17,7 +17,7 @@ export class HeaderComponent {
     this.translate.use(language);
   }
 
-  overlayVisible = false;
+  overlayVisible:boolean = false;
 
   toggleOverlay(): void {
     this.overlayVisible = !this.overlayVisible;

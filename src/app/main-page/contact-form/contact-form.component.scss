@@ -126,6 +126,16 @@ section{
     font-size: 18px;
     color: #02F4BF;
     padding-left: 10px;
+    &.ng-valid.ng-touched {
+        border-color: green;
+        border-width: 2px;
+    }
+
+    // Wenn ungültig UND schon berührt (touched)
+    &.ng-invalid.ng-touched {
+        border-color: red;
+        border-width: 3px;
+    }
 }
 .form-input::placeholder {
     color: #02F4BF;
@@ -171,6 +181,23 @@ section{
         &:hover{
             color: #02F4BF;
             border: solid 1px #02F4BF;
+        }
+        &:disabled {
+            cursor: default;          
+            opacity: 0.5;             
+            color: #aaa;              
+            border-color: #aaa;
+
+        &:hover {
+            color: #aaa;            
+            border-color: #aaa;
+        }
+        }
+        &.success {
+            background-color: #28a745; 
+            color: white;
+            border-color: #28a745;
+            transition: background-color 0.3s ease;
         }
     }
 }
