@@ -16,4 +16,10 @@ export class HeaderComponent {
   changeLanguage(language: string){
     this.translate.use(language);
   }
+
+  overlayVisible = false;
+
+  toggleOverlay(): void {
+    this.overlayVisible = !this.overlayVisible;
+  }
 }

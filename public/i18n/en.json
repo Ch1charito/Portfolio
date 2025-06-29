@@ -10,7 +10,7 @@
   },
   "why-me": {
     "h3": "Why me",
-    "text": "Write some information about yourself that is IT related. Why are you passionate about coding? Highlight your motivation for professional growth and continuous learning. Emphasise your strong problem-solving skills and passion for coding.",
+    "text": "I have a strong passion for programming and a particular interest in modern web technologies. New challenges motivate me to continuously expand my knowledge and grow professionally. I am distinguished by my structured approach, strong planning skills, and solution-oriented mindset. Continuous learning is a key part of my professional development.",
     "h4": "I am",
     "located": "located",
     "in": "in Munich",
@@ -48,7 +48,7 @@
   },
   "contact":{
     "h3": "Contact me",
-    "text": "Encourage people to contact you and describe what role you are interested in. Express interest in contributing to a new Project",
+    "text": "I look forward to connecting with you and learning more about potential projects. As a dedicated Frontend Web Developer, I am particularly interested in roles where I can help create modern, user-friendly interfaces.",
     "name": "Your Name",
     "email": "Your Email",
     "message": "Your Message",
