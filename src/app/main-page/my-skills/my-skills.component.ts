@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { Skill } from '../../shared/interfaces/skill';
 import { SkillItemComponent } from './skill-item/skill-item.component';
 import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translate/core";
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-my-skills',
-  imports: [SkillItemComponent, TranslatePipe],
+  imports: [SkillItemComponent, TranslatePipe, CommonModule],
   templateUrl: './my-skills.component.html',
   styleUrl: './my-skills.component.scss'
 })
@@ -47,5 +48,8 @@ export class MySkillsComponent {
       name: "Challenge me",
       image: "/assets/images/my_skills_section/challenge_me.png",
     },
-  ]
+  ];
+  
+  showText: boolean = false;
+  
 }

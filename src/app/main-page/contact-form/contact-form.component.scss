@@ -55,6 +55,7 @@ section{
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+            flex-shrink: 0;
             @media (max-width: 817px){
                 display: none;
             }

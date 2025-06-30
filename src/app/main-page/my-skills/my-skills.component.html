@@ -3,11 +3,15 @@
         <h3>{{'skills.h3' | translate }}</h3>
         <div>
             @for (item of skills; track $index) {
-                <app-skill-item [skills]="item"></app-skill-item>
+                <app-skill-item [skills]="item"
+                (mouseenter)="showText = $index === skills.length - 1"
+                (mouseleave)="showText = false"></app-skill-item>
             }
+            <p id="hover-text" *ngIf="showText">I am always happy to learn new technologies, just tell me what you need.</p>
         </div>
         <img class="arrow-resp" src="/assets/images/why_me/arrow_two.png" alt="pfeil rechts">
         <p class="text-resp">{{'skills.text' | translate }}</p>
+        <a class="btn-resp" href="#contact-section">{{'why-me.talk' | translate }}</a>
     
     </div>
 </section>

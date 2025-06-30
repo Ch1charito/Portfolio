@@ -49,6 +49,12 @@ section{
             gap: 72px;
         }
     }
+    #hover-text{
+        text-align: start;
+        @media (max-width: 498px){
+            display: none;
+        }
+    }
     
 }
 .arrow-resp{
@@ -62,5 +68,23 @@ section{
     display: none;
     @media (max-width: 498px){
         display: flex;
+    }
+}
+.btn-resp{
+    display: none;
+    
+    @media (max-width: 498px){
+        margin-top: 32px;
+        display: flex;
+        text-decoration: none;
+        height: 52px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background: #02F4BF;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            color: #E15544;
+        }
     }
 }

@@ -116,20 +116,45 @@ section{
                 #suitcase{
                     height: 48.98px;
                     width: 30px;
+                    margin-right: 16px;
+                    background: url('../../../../public/assets/images/why_me/icons/suitcase.png') no-repeat center;
+                    background-size: contain;
+                    transition: width 0.3s ease, height 0.3s ease, background-image 0.3s ease;
+                    flex-shrink: 0;
                     @media (max-width: 570px){
                         height: 38.98px;
                         width: 20px;
                     }
                 }
+                #suitcase:hover{
+                    height: 48.98px;
+                    width: 30px;
+                    margin-right: 16px;
+                    background: url('../../../../public/assets/images/why_me/icons/suitcase_rotate.png') no-repeat center;
+                    background-size: contain;
+                }
                 #remote{
                     margin-left: 30%;
+                    margin-right: 16px;
                     height: 46.99px;
                     width: 53.58px;
+                    background: url('../../../../public/assets/images/why_me/icons/remote.png') no-repeat center;
+                    background-size: contain;
+                    transition: width 0.3s ease, height 0.3s ease, background-image 0.3s ease;
+                    flex-shrink: 0;
                     @media (max-width: 570px){
-                    margin-left: 0;
-                    height: 36.99px;
-                    width: 43.58px;
+                        margin-left: 0;
+                        height: 36.99px;
+                        width: 43.58px;
+                    }
                 }
+                #remote:hover{
+                    margin-left: 30%;
+                    margin-right: 16px;
+                    height: 46.99px;
+                    width: 53.58px;
+                    background: url('../../../../public/assets/images/why_me/icons/remote_three.png') no-repeat center;
+                    background-size: contain;
                 }
                 #arrow-three{
                     margin-left: 10%;
@@ -149,10 +174,21 @@ section{
                 height: 41px;
                 width: 33.31px;
                 margin-right: 16px;
+                background: url('../../../../public/assets/images/why_me/icons/vector.png') no-repeat center;
+                background-size: contain;
+                transition: width 0.3s ease, height 0.3s ease, background-image 0.3s ease;
+                flex-shrink: 0;
                 @media (max-width: 570px){
                     height: 31px;
                     width: 23.31px;
                 }
+            }
+            .why-me-icon:hover{
+                height: 46px;
+                width: 38.31px;
+                margin-right: 16px;
+                background: url('../../../../public/assets/images/why_me/icons/vector_hover.png') no-repeat center;
+                background-size: contain;
             }
             .arrow{
                 height: 75px;
