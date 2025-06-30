@@ -112,10 +112,24 @@ section{
                 }
             }
             .btn-arrow{
+                margin-top: 300px;
+                background: url('../../../../public/assets/images/why_me/arrow_down_default.png');
+                width: 50px;
+                height: 70px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
                 @media (max-width: 1250px){
                     display: none;
                 }
             }
+            .btn-arrow:hover{
+                background: url('../../../../public/assets/images/why_me/arrow_down_hover.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+            
         }
     }
 }

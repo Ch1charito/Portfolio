@@ -62,5 +62,9 @@
   "footer": {
     "legal": "Impressum",
     "policy": "Datenschutzerklärung"
+  },
+  "impressum": {
+    "h1": "Impressum",
+    "btn": "Zurück"
   }
 }

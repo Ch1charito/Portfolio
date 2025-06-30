@@ -3,11 +3,11 @@ import { RouterLink } from '@angular/router';
 import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translate/core";
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-privacy-policy',
   imports: [TranslatePipe, RouterLink],
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  templateUrl: './privacy-policy.component.html',
+  styleUrl: './privacy-policy.component.scss'
 })
-export class FooterComponent {
+export class PrivacyPolicyComponent {
 
 }

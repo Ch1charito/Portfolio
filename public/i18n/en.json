@@ -60,5 +60,9 @@
   "footer": {
     "legal": "Legal notice",
     "policy": "privacy policy"
+  },
+  "impressum": {
+    "h1": "Legal Notice",
+    "btn": "back"
   }
 }

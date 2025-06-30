@@ -48,10 +48,24 @@ section{
             text-align: center;
             
         }
-        img{
+        .arrow-up{
+            background: url('../../../../public/assets/images/why_me/arrow_up_default.png');
+            width: 50px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
             @media (max-width: 817px){
                 display: none;
             }
+        }
+        .arrow-up:hover{
+            background: url('../../../../public/assets/images/why_me/arrow_up_hover.png');
+            width: 65px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
         }
         .mail-phone{
             display: flex;
@@ -71,17 +85,42 @@ section{
                 @media (max-width: 817px){
                     display: none;
                 }
+                
                 a{
                     text-decoration: none;
                     color: #02F4BF;
                     font-size: 20px;
                     display: flex;
                     align-items: center;
-                    img{
-                        height: 30px;
-                        width: 30px;
+                    .link-email{
                         margin-right: 8px;
+                        width: 30px;
+                        height: 30px;
+                        background: url('../../../../public/assets/images/footer/email_default.png') no-repeat center;
+                        background-size: contain;
                     }
+                    .link-email:hover{
+                        margin-right: 8px;
+                        width: 30px;
+                        height: 30px;
+                        background: url('../../../../public/assets/images/footer/email_hover.png') no-repeat center;
+                        background-size: contain;
+                    }
+                    .link-phone{
+                        margin-right: 8px;
+                        width: 30px;
+                        height: 30px;
+                        background: url('../../../../public/assets/images//footer/phone_default.png') no-repeat center;
+                        background-size: contain;
+                    }
+                    .link-phone:hover{
+                        margin-right: 8px;
+                        width: 30px;
+                        height: 30px;
+                        background: url('../../../../public/assets/images/footer/phone_hover.png') no-repeat center;
+                        background-size: contain;
+                    }
+                    
                 }
             }
         }
@@ -204,10 +243,23 @@ section{
 .arrow-resp{
     display: none;
     margin-top: 8px;
+    width: 40px;
+    height: 60px;
+    background: url('/assets/images/why_me/arrow_up_default.png') no-repeat center;
+    background-size: contain;
     @media (max-width: 817px){
         display: flex;
         justify-content: end;
+        margin-left: auto;
     }
+}
+.arrow-resp:hover{
+    background: url('../../../../public/assets/images/why_me/arrow_up_hover.png');
+    width: 40px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .links-resp{
@@ -238,8 +290,41 @@ section{
     @media (max-width: 817px){
         display: flex;
     }
-    img{
-        height: 30px;
+    .icon-git{
         width: 30px;
+        height: 30px;
+        background: url('../../../../public/assets/images/footer/git_default.png') no-repeat center;
+        background-size: contain;
     }
+    .icon-git:hover{
+        width: 30px;
+        height: 30px;
+        background: url('../../../../public/assets/images/footer/git_hover.png') no-repeat center;
+        background-size: contain;
+    }
+    .icon-email{
+        width: 30px;
+        height: 30px;
+        background: url('../../../../public/assets/images/footer/email_default.png') no-repeat center;
+        background-size: contain;
+    }
+    .icon-email:hover{
+        width: 30px;
+        height: 30px;
+        background: url('../../../../public/assets/images/footer/email_hover.png') no-repeat center;
+        background-size: contain;
+    }
+    .icon-linkedin{
+        width: 30px;
+        height: 30px;
+        background: url('../../../../public/assets/images//footer/linkedin_default.png') no-repeat center;
+        background-size: contain;
+    }
+    .icon-linkedin:hover{
+        width: 30px;
+        height: 30px;
+        background: url('../../../../public/assets/images/footer/linkedin_hover.png') no-repeat center;
+        background-size: contain;
+    }
+    
 }

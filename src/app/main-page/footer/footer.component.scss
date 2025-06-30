@@ -44,9 +44,41 @@ footer{
             @media (max-width: 817px){
                 display: none;
             }
-            img{
-                height: 30px;
+            .icon-git{
                 width: 30px;
+                height: 30px;
+                background: url('../../../../public/assets/images/footer/git_default.png') no-repeat center;
+                background-size: contain;
+            }
+            .icon-git:hover{
+                width: 30px;
+                height: 30px;
+                background: url('../../../../public/assets/images/footer/git_hover.png') no-repeat center;
+                background-size: contain;
+            }
+            .icon-email{
+                width: 30px;
+                height: 30px;
+                background: url('../../../../public/assets/images/footer/email_default.png') no-repeat center;
+                background-size: contain;
+            }
+            .icon-email:hover{
+                width: 30px;
+                height: 30px;
+                background: url('../../../../public/assets/images/footer/email_hover.png') no-repeat center;
+                background-size: contain;
+            }
+            .icon-linkedin{
+                width: 30px;
+                height: 30px;
+                background: url('../../../../public/assets/images//footer/linkedin_default.png') no-repeat center;
+                background-size: contain;
+            }
+            .icon-linkedin:hover{
+                width: 30px;
+                height: 30px;
+                background: url('../../../../public/assets/images/footer/linkedin_hover.png') no-repeat center;
+                background-size: contain;
             }
         }
         
