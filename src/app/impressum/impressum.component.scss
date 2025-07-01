@@ -9,10 +9,16 @@ section{
     align-items: center;
     p{
         margin: 8px;
+        @media(max-width: 420px){
+            font-size: 12px;
+        }
     }
     h1{
         font-size: 54px;
         color: #E15544;
+        @media(max-width: 420px){
+            font-size: 32px;
+        }
     }
     a{
         color: #E15544;

@@ -170,8 +170,6 @@ section{
         border-color: green;
         border-width: 2px;
     }
-
-    // Wenn ungültig UND schon berührt (touched)
     &.ng-invalid.ng-touched {
         border-color: red;
         border-width: 3px;
@@ -188,14 +186,53 @@ section{
     color: #02F4BF;
     padding-left: 10px;
     padding-top: 10px;
+    &.ng-valid.ng-touched {
+        border-color: green;
+        border-width: 2px;
+    }
+    &.ng-invalid.ng-touched {
+        border-color: red;
+        border-width: 3px;
+    }
 }
 .form-text::placeholder{
     color: #02F4BF;
 }
 .checkbox-label{
-    margin-top: 16px;
+    margin-top: 8px;
     margin-bottom: 16px;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    .checkbox-input{
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+        background: transparent;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 2px solid #E15544;
+        position: relative;
+    }
+    .checkbox-input:hover {
+        background: #02F4BF;
+        cursor: pointer;
+    }
+    .checkbox-input:checked {
+        background-color: #02F4BF;
+        border-color: #E15544;
+    }
+    .checkbox-input:checked::after {
+        content: '';
+        position: absolute;
+        left: 3px;
+        top: 0px;
+        width: 5px;
+        height: 10px;
+        border: solid #E15544;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+    }
     @media (max-width: 817px){
         font-size: 12px;
         text-align: center;
@@ -203,6 +240,12 @@ section{
     a{
         text-decoration: none;
         color: #E15544;
+        margin-right: 8px;
+        margin-left: 8px;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
 .send-btn{

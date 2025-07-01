@@ -15,5 +15,7 @@ import { ContactFormComponent } from "./contact-form/contact-form.component";
   styleUrl: './main-page.component.scss'
 })
 export class MainPageComponent {
-
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

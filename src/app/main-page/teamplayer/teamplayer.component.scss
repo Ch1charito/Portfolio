@@ -52,6 +52,12 @@ section{
         @media (max-width: 1485px){
                 justify-content: center;
         }
+        @media (max-width: 1357px){
+            width: 112%;
+        }
+        @media (max-width: 784px){
+            width: 100%;
+        }
         @media (max-width: 705px){
             width: 300px;
         }

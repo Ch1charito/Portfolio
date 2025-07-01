@@ -32,7 +32,7 @@
                 <div class="checkbox-label">
                     <label class="checkbox-label">
                     <input type="checkbox" class="checkbox-input" name="privacy" [(ngModel)]="contactData.privacy" required>
-                    {{'contact.i-have' | translate }}<a href="/privacy-policy">{{'contact.policy' | translate }}</a>{{'contact.agree' | translate }}
+                    {{'contact.i-have' | translate }}<a [routerLink]="['/privacy-policy']">{{'contact.policy' | translate }}</a>{{'contact.agree' | translate }}
                     </label>
                 </div>
                 <div class="send-btn">
@@ -50,7 +50,7 @@
         <div class="icons-resp">
             <a class="icon-git" href="https://github.com/Ch1charito" target="_blank"></a>
             <a class="icon-email" href="mailto:r.bautistabuschmann@yahoo.de"></a>
-            <a class="icon-linkedin" href="https://github.com/Ch1charito" target="_blank"></a>
+            <a class="icon-linkedin" href="https://www.linkedin.com/in/robin-bautista-buschmann-31b868372/" target="_blank"></a>
         </div>
     </div>
 </section>
