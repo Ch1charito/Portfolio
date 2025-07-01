@@ -10,7 +10,7 @@
             </nav>
         </div>
         <button id="burger-btn" (click)="toggleOverlay()">
-            <img src="/assets/images/hero_section/burger.png" alt="burger-menu">
+            <img src="assets/images/hero_section/burger.png" alt="burger-menu">
         </button>
         <div class="switch-btn">
             <button (click)="changeLanguage('de')">DE</button>
@@ -20,7 +20,7 @@
         
     </div>
     <div class="overlay" [class.d-none]="!overlayVisible">
-        <button id="close-btn" (click)="toggleOverlay()"><img src="/assets/images/hero_section/close.png" alt=""></button>
+        <button id="close-btn" (click)="toggleOverlay()"><img src="assets/images/hero_section/close.png" alt=""></button>
         <a href="#why-me-section" (click)="toggleOverlay()">{{'header.nav1' | translate }}</a>
         <a href="#skills" (click)="toggleOverlay()">{{'header.nav2' | translate }}</a>
         <a href="#preoject-section" (click)="toggleOverlay()">{{'header.nav3' | translate }}</a>
