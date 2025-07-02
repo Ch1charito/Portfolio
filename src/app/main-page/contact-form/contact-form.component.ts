@@ -24,7 +24,7 @@ export class ContactFormComponent {
   mailTest = true;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',          // url meiner domain eintragen
+    endPoint: 'https://robin-bautista-buschmann.developerakademie.net/angular-projects/portfolio/index.html/sendMail.php',          // url meiner domain eintragen
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
