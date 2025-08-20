@@ -16,8 +16,8 @@ export class MyProjectsComponent {
       image: "assets/images/my_projects_setion/join_default.png",
       description: "projects.join.description",
       languages: "Angular | TypeScript | HTML | CSS | Firebase",
-      gitlink: "https://github.com/Ch1charito/El-Pollo-Loco",
-      testlink: "https://robin-bautista-buschmann.developerakademie.net/meine_seiten/pollo-loco",
+      gitlink: "https://github.com/Ch1charito/Join",
+      testlink: "https://ik-0225-join-002.developerakademie.net/angular-projects/join/login",
     },
     {
       name: "Pollo Loco",
