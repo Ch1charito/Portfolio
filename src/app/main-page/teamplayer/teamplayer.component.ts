@@ -12,8 +12,8 @@ import {TranslatePipe, TranslateDirective, TranslateService} from "@ngx-translat
 export class TeamplayerComponent {
   feedbacks:Array<Feedback> = [
     {
-      name: "Noah Mueller",
-      project: "Project Sharkie",
+      name: "Burak Keles",
+      project: "Project Join",
       personalFeedback: "teamplayer.feedback1.personalFeedback",
     },
     {
@@ -22,7 +22,7 @@ export class TeamplayerComponent {
       personalFeedback: "teamplayer.feedback2.personalFeedback",
     },
     {
-      name: "James Rugman",
+      name: "Adem Ö.",
       project: "Project Join",
       personalFeedback: "teamplayer.feedback3.personalFeedback",
     }
