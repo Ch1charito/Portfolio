@@ -22,7 +22,7 @@ export class TeamplayerComponent {
       personalFeedback: "teamplayer.feedback2.personalFeedback",
     },
     {
-      name: "Adem Ö.",
+      name: "Adem Oencue",
       project: "Project Join",
       personalFeedback: "teamplayer.feedback3.personalFeedback",
     }
