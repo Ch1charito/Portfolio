@@ -17,7 +17,7 @@ export class MyProjectsComponent {
       description: "projects.join.description",
       languages: "Angular | TypeScript | HTML | CSS | Firebase",
       gitlink: "https://github.com/Ch1charito/Join",
-      testlink: "https://ik-0225-join-002.developerakademie.net/angular-projects/join/login",
+      testlink: "http://join.r-bautista-buschmann.de/",
     },
     {
       name: "Pollo Loco",
@@ -25,7 +25,7 @@ export class MyProjectsComponent {
       description: "projects.polloLoco.description",
       languages: "JavaScript | HTML | CSS",
       gitlink: "https://github.com/Ch1charito/El-Pollo-Loco",
-      testlink: "https://robin-bautista-buschmann.developerakademie.net/meine_seiten/pollo-loco",
+      testlink: "http://el-pollo-loco.r-bautista-buschmann.de/",
     }
   ]
 }
