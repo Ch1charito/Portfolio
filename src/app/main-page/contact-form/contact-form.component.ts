@@ -21,7 +21,7 @@ export class ContactFormComponent {
     privacy: false,
   }
 
-  mailTest = true;
+  mailTest = false;
 
   post = {
     endPoint: 'https://r-bautista-buschmann.de/sendMail.php',          // url meiner domain eintragen
