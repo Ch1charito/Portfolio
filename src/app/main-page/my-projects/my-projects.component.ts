@@ -25,7 +25,7 @@ export class MyProjectsComponent {
       description: "projects.polloLoco.description",
       languages: "JavaScript | HTML | CSS",
       gitlink: "https://github.com/Ch1charito/El-Pollo-Loco",
-      testlink: "http://el-pollo-loco.r-bautista-buschmann.de/",
+      testlink: "https://pollo-loco.r-bautista-buschmann.de/",
     }
   ]
 }
