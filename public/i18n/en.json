@@ -30,6 +30,9 @@
     },
     "polloLoco": {
       "description": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen."
+    },
+    "timely": {
+      "description": "Construction site management app featuring time tracking, vacation planning, inventory control, and a tool-status system to monitor equipment availability."
     }
   },
   "teamplayer": {

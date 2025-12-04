@@ -17,8 +17,8 @@ export class TeamplayerComponent {
       personalFeedback: "teamplayer.feedback1.personalFeedback",
     },
     {
-      name: "Evelyn Marx",
-      project: "Project Join",
+      name: "Bastian Seibel",
+      project: "Project TImely",
       personalFeedback: "teamplayer.feedback2.personalFeedback",
     },
     {

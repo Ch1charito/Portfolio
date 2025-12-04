@@ -32,6 +32,9 @@
     },
     "polloLoco": {
       "description": "Jump-, Lauf- und Wurfspiel basierend auf objektorientiertem Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen das verrückte Huhn zu kämpfen."
+    },
+    "timely": {
+      "description": "Baustellen-Management-App mit Zeiterfassung, Urlaubsplanung, Inventarverwaltung und einem Tool-Statussystem zur Überwachung der Geräteverfügbarkeit."
     }
   },
   "teamplayer": {

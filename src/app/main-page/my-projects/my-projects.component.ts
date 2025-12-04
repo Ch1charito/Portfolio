@@ -26,6 +26,14 @@ export class MyProjectsComponent {
       languages: "JavaScript | HTML | CSS",
       gitlink: "https://github.com/Ch1charito/El-Pollo-Loco",
       testlink: "https://pollo-loco.r-bautista-buschmann.de/",
+    },
+    {
+      name: "Timely",
+      image: "assets/images/my_projects_setion/timely.png",
+      description: "projects.timely.description",
+      languages: "Angular | TypeScript | HTML | CSS | Firebase",
+      gitlink: "https://github.com/Ch1charito/Timely",
+      testlink: "https://timely.r-bautista-buschmann.de/",
     }
   ]
 }
